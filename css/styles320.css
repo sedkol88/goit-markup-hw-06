@@ -254,8 +254,6 @@ body {
 
 /*-------- MOB MENU -------------------------------------*/
 .mobmenu {
-  max-width: 320px;
-
   position: fixed;
   top: 0;
   z-index: 20;
@@ -315,6 +313,10 @@ body {
   color: var(--ocean, #404bbf);
 }
 
+.mobmenu-nav-link.current {
+  color: var(--ocean, #404bbf);
+}
+
 .mobmenu-address-list {
   margin-bottom: 48px;
 }
@@ -350,6 +352,7 @@ body {
   color: var(--ocean, #404bbf);
 }
 .mobmenu-icons-box {
+  max-width: 328px;
   display: flex;
   justify-content: space-between;
 }
@@ -540,8 +543,8 @@ body {
 .team-icon-item {
 }
 .team-link {
-  width: 100%;
-  height: 100%;
+  width: 40px;
+  height: 40px;
 
   background-color: var(--iris);
   border-radius: 50%;
